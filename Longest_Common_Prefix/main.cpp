@@ -14,4 +14,5 @@ void longestCommonPrefixTask::testing() {
     for (const auto &[test, ans]: tests) {
         assert(sol.longestCommonPrefix(const_cast<std::vector<std::string> &>(test)) == ans);
     }
+    std::cout << "All tests for the \"Longest Common Prefix\" problem passed" << std::endl;
 }

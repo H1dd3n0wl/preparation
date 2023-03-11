@@ -7,10 +7,13 @@
 
 void romanToIntTask::testing() {
     Solution sol;
-    std::map<std::string, int> tests = {{"III",     3},
-                                        {"LVIII",   58},
-                                        {"MCMXCIV", 1994}};
-    for (auto &[test, ans]: tests) {
+    std::map<std::string, int> tests = {
+            {"III",     3},
+            {"LVIII",   58},
+            {"MCMXCIV", 1994}
+    };
+    for (const auto &[test, ans]: tests) {
         assert(sol.romanToInt(test) == ans);
     }
+    std::cout<<"All tests for the \"Roman to Int\" problem passed"<<std::endl;
 }
