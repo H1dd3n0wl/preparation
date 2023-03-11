@@ -15,5 +15,5 @@ void romanToIntTask::testing() {
     for (const auto &[test, ans]: tests) {
         assert(sol.romanToInt(test) == ans);
     }
-    std::cout<<"All tests for the \"Roman to Int\" problem passed"<<std::endl;
+    std::cout << "All tests for the \"Roman to Int\" problem passed" << std::endl;
 }
