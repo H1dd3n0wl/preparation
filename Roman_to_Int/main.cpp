@@ -1,11 +1,11 @@
-#include <cassert>
-#include <map>
-#include "Solution.h"
+//
+// Created by andrey on 10.3.23.
+//
 
-using namespace romanToIntTask;
+#include "Solution.h"
+#include "main.h"
 
 void romanToIntTask::testing() {
-    std::cout<<"koko1";
     Solution sol;
     std::map<std::string, int> tests = {{"III",     3},
                                         {"LVIII",   58},

@@ -2,11 +2,11 @@
 // Created by andrey on 11.3.23.
 //
 
-#ifndef PREPARATION_SOLUTION_H
-#define PREPARATION_SOLUTION_H
+#pragma once
 
 #include <iostream>
 #include <vector>
+
 namespace longestCommonPrefixTask {
     class Solution {
     private:
@@ -15,8 +15,4 @@ namespace longestCommonPrefixTask {
     public:
         std::string longestCommonPrefix(std::vector<std::string> &strs);
     };
-
-    void testing();
 }
-
-#endif //PREPARATION_SOLUTION_H

@@ -6,7 +6,7 @@
 
 std::string longestCommonPrefixTask::Solution::lcm(std::string &a, std::string &b) {
     std::string ans;
-    for (int i = 0; i < std::min((int)a.size(), (int)b.size()); ++i) {
+    for (int i = 0; i < std::min((int) a.size(), (int) b.size()); ++i) {
         if (a[i] != b[i]) {
             break;
         } else {

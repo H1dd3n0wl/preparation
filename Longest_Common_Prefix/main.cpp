@@ -2,14 +2,10 @@
 // Created by andrey on 11.3.23.
 //
 
-#include "Solution.cpp"
-#include <map>
-#include <cassert>
-
-using namespace longestCommonPrefixTask;
+#include "Solution.h"
+#include "main.h"
 
 void longestCommonPrefixTask::testing() {
-    std::cout<<"koko2";
     Solution sol;
     std::map<std::vector<std::string>, std::string> tests = {
             {{"flower", "flow",    "flight"}, "fl"},

@@ -2,10 +2,11 @@
 // Created by andrey on 11.3.23.
 //
 
-#include "Longest Common Prefix/Solution.h"
-#include "romanToInt/Solution.h"
+
+#include "Roman_to_Int/main.h"
+#include "Longest_Common_Prefix/main.h"
 
 int main() {
-    longestCommonPrefixTask::testing();
     romanToIntTask::testing();
+    longestCommonPrefixTask::testing();
 }
