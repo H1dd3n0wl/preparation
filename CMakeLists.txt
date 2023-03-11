@@ -3,4 +3,4 @@ project(preparation)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(preparation romanToInt/main.cpp romanToInt/Solution.cpp romanToInt/Solution.h)
+add_executable(preparation main.cpp romanToInt/main.cpp "Longest Common Prefix/main.cpp")

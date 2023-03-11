@@ -6,7 +6,7 @@
 
 #include <map>
 
-int Solution::romanToInt(const std::string& s) {
+int romanToIntTask::Solution::romanToInt(const std::string& s) {
     std::map<char, int> m;
     m['I'] = 1;
     m['V'] = 5;

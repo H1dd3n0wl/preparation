@@ -7,10 +7,14 @@
 
 #include <iostream>
 
-class Solution {
-public:
-    int romanToInt(const std::string& s);
-};
+namespace romanToIntTask {
+    class Solution {
+    public:
+        int romanToInt(const std::string &s);
+    };
+
+    void testing();
+}
 
 
 #endif //LEETCODE_SOLUTION_H
