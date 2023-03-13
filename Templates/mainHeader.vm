@@ -1,0 +1,18 @@
+#parse("C File Header.h")
+#[[#pragma]]# once
+
+#[[#include]]# <map>
+#[[#include]]# <cassert>
+#set (${ORGANIZATION_NAME} = "")
+#set ($first_word = ${DIR_PATH.split("_", 2).get(0).toLowerCase()})
+#set ($other_words = ${DIR_PATH.split("_", 2).get(1)})
+#set ($namespace_name = $first_word)
+#set ($name = "")
+#foreach($name in $other_words.split("_"))
+    #set($namespace_name = "$namespace_name$name")
+#end
+#set($namespace_name = "${namespace_name}Task")
+
+namespace $namespace_name {
+    void testing();
+}
