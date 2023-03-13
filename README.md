@@ -7,5 +7,6 @@ This repository was made to store solutions for some tasks on the well-known res
 I will try to save not only the pure code that had AC submission, but also create some approaches for my solutions 
 or pick the approach from discussion under the task.
 
-_TO-DO_:
+<span style = "color:yellow">_TO-DO_</span>:
 * Make automating system for creating directory for the solution.
+* Make READMEs for existing tasks
