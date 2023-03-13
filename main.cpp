@@ -8,6 +8,7 @@
 #include "Running_Sum/main.h"
 #include "Find_Pivot_Index/main.h"
 #include "Isomorphic_Strings/main.h"
+#include "Is_Subsequence/main.h"
 
 int main() {
     romanToIntTask::testing();
@@ -15,4 +16,5 @@ int main() {
     runningSumTask::testing();
     findPivotIndexTask::testing();
     isomorphicStringsTask::testing();
+    isSubsequenceTask::testing();
 }
