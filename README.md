@@ -8,4 +8,4 @@ I will try to save not only the pure code that had AC submission, but also creat
 or pick the approach from discussion under the task.
 
 _TO-DO_:  
-Make automating system for creating directory for the solution
+* Make automating system for creating directory for the solution.
