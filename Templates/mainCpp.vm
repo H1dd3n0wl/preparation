@@ -13,5 +13,5 @@
 #set($namespace_name = "${namespace_name}Task")
 
 void ${namespace_name}::testing() {
-    std::cout << "All tests for \"$task_name\" problem passed" << std::endl;
+    std::cout << "All tests for the \"$task_name\" problem passed" << std::endl;
 }
